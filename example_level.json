@@ -1,0 +1,62 @@
+{
+  "start": [
+    20,
+    20
+  ],
+  "end": [
+    700,
+    500
+  ],
+  "obstacles": [
+    {
+      "x": 200,
+      "y": 100,
+      "width": 20,
+      "height": 200,
+      "type": 1,
+      "description": "wall"
+    },
+    {
+      "x": 300,
+      "y": 300,
+      "width": 80,
+      "height": 80,
+      "type": 2,
+      "description": "swamp"
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "width": 30,
+      "height": 30,
+      "type": 3,
+      "description": "trap"
+    },
+    {
+      "x": 600,
+      "y": 300,
+      "width": 50,
+      "height": 40,
+      "type": 4,
+      "description": "enemy",
+      "path": [
+        [
+          600,
+          300
+        ],
+        [
+          650,
+          300
+        ],
+        [
+          650,
+          350
+        ],
+        [
+          600,
+          350
+        ]
+      ]
+    }
+  ]
+}
